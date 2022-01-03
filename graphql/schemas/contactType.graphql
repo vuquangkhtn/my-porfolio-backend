@@ -1,0 +1,11 @@
+type Contact {
+  id: ID!
+  name: String
+  email: String
+  description: String
+  user: User
+}
+
+type Query {
+  addContact(userId: ID!, name: String!, email: String!, description: String): ID,
+}

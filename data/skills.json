@@ -1,0 +1,44 @@
+[
+    {
+        "id": "skill-1",
+        "name": "Languages & Scripting",
+        "detail": "JavaScript, TypeScript",
+        "userId": "user-1"
+    },
+    {
+        "id": "skill-2",
+        "name": "Frameworks & Libraries",
+        "detail": "ReactJS, NextJS, Angular6, React Native, Jest, Enzyme, react-testing-library",
+        "userId": "user-1"
+    },
+    {
+        "id": "skill-3",
+        "name": "Testing methods",
+        "detail": "Unit Test, Integration Test, Smoke Test, Pairing with QA",
+        "userId": "user-1"
+    },
+    {
+        "id": "skill-4",
+        "name": "Operating Systems",
+        "detail": "Responsive Web, Cross-platform",
+        "userId": "user-1"
+    },
+    {
+        "id": "skill-5",
+        "name": "Configuration Management Tools",
+        "detail": "NPM, Yarn, Webpack 4",
+        "userId": "user-1"
+    },
+    {
+        "id": "skill-6",
+        "name": "Methodology",
+        "detail": "Agile (Scrum)",
+        "userId": "user-1"
+    },
+    {
+        "id": "skill-7",
+        "name": "Agile Management",
+        "detail": "Jira (Atlassian), Azure (Microsoft)",
+        "userId": "user-1"
+    }
+]

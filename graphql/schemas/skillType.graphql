@@ -1,0 +1,10 @@
+type Skill {
+  id: ID!
+  name: String
+  detail: String
+  user: User
+}
+
+type Query {
+  skills: [Skill],
+}

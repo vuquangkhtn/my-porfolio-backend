@@ -1,0 +1,56 @@
+[
+    {
+        "id": "exp-1",
+        "companyId": "his-1",
+        "name": "Medical service",
+        "industry": "Medical",
+        "description": "Multinational website for managing prescriptions, the medical route, patient's symptoms. The patients can update their routine, which helps doctor follow their current statuses and give them the helpful advices. Moreover, we provide statistics for medical route, the patient statuses",
+        "skills": "ReactJS, TypeScript, HTML, CSS, redux, styled-component, Webpack, CircleCI, MomentJS, Material UI\nTesting Framework: Jest, Enzyme, react-testing-library\nPair Programing, Unit Test, Integration Test",
+        "userId": "user-1"
+    },
+    {
+        "id": "exp-2",
+        "companyId": "his-1",
+        "name": "Media Management",
+        "industry": "Management",
+        "skills": "ReactJS, JavaScript, redux, redux-thunk, styled-component, Webpack, Ant Design, common library, ElasticSearch, Nuxeo",
+        "userId": "user-1"
+    
+    },
+    {
+        "id": "exp-3",
+        "companyId": "his-1",
+        "name": "Stock Exchange",
+        "industry": "Business",
+        "description": "A website for trading cryptocurrency. It shows us the latest news managed by admin team. Moreover, There are functions for registered users to exchange and manage the orders, view order history, view coin list and cryptocurrency market.",
+        "skills": "ReactJS, NextJS, JavaScript, HTML5, CSS3, Boostrap, Redux, Webpack, Yarn, Web Socket, React-boostrap",
+        "userId": "user-1"
+    },
+    {
+        "id": "exp-4",
+        "companyId": "his-2",
+        "name": "Management Tool",
+        "industry": "Scrum Management",
+        "description": "An agile project management capabilities into a web application, which helps you plan and organize tasks, workflows, and reports for your agile team more efficiently.",
+        "skills": "Angular 6, Typescript, HTML, Boostrap, SASS, Redux, Webpack, NPM",
+        "userId": "user-1"
+    },
+    {
+        "id": "exp-5",
+        "companyId": "his-2",
+        "name": "Social Network for Interal Company",
+        "industry": "Social Network",
+        "description": "A free social networking application that allows registered users to create profiles, upload photos, follow people, send messages and donating for friends, followed people,...",
+        "skills": "React Native, JavaScript, HTML, CSS, styled-component",
+        "userId": "user-1"
+    },
+    {
+        "id": "exp-6",
+        "companyId": "his-2",
+        "name": "Ticket Application",
+        "industry": "Payment",
+        "description": "Website for managing (buy and sell) tickets of events which is registered with company. You can view event info, its owner's info and more that relate to event you consider",
+        "skills": "React Native, JavaScript, HTML, CSS, redux, redux-saga, styled-component, Webpack, NPM",
+        "userId": "user-1"
+    }
+]

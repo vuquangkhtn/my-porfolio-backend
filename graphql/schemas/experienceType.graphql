@@ -1,0 +1,13 @@
+type Experience {
+  id: ID!
+  company: History
+  name: String
+  description: String
+  industry: String
+  skills: String
+  user: User
+}
+
+type Query {
+  experiences: [Experience],
+}

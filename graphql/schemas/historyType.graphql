@@ -1,0 +1,12 @@
+type History {
+  id: ID!
+  company: String
+  name: String
+  time: String
+  nextTime: History
+  user: User
+}
+
+type Query {
+  histories: [History],
+}

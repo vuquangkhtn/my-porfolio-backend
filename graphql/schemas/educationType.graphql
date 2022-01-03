@@ -1,0 +1,11 @@
+type Education {
+  id: ID!
+  organization: String
+  name: String
+  description: String
+  user: User
+}
+
+type Query {
+  educations: [Education],
+}
