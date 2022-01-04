@@ -43,7 +43,7 @@
     },
     {
         "id": "skill-5",
-        "name": "Configuration Management Tools",
+        "name": "Management Tools",
         "detail": "NPM, Yarn, Webpack 4",
         "userId": "user-1"
     },

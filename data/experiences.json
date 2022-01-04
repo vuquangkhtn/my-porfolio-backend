@@ -5,7 +5,7 @@
         "name": "Medical service",
         "industry": "Medical",
         "description": "Multinational website for managing prescriptions, the medical route, patient's symptoms. The patients can update their routine, which helps doctor follow their current statuses and give them the helpful advices. Moreover, we provide statistics for medical route, the patient statuses",
-        "skills": "ReactJS, TypeScript, HTML, CSS, redux, styled-component, Webpack, CircleCI, MomentJS, Material UI\nTesting Framework: Jest, Enzyme, react-testing-library\nPair Programing, Unit Test, Integration Test",
+        "skills": "React JS, TypeScript, HTML, CSS, redux, styled-component, Webpack, Circle CI, Moment JS, Material UI\nTesting Framework: Jest, Enzyme, react-testing-library\nPair Programing, Unit Test, Integration Test",
         "userId": "user-1"
     },
     {
@@ -13,7 +13,8 @@
         "companyId": "his-1",
         "name": "Media Management",
         "industry": "Management",
-        "skills": "ReactJS, JavaScript, redux, redux-thunk, styled-component, Webpack, Ant Design, common library, ElasticSearch, Nuxeo",
+        "description": "System for managing images, campaigns, and image owners. The librarians or administrators can manage, organize the assets and update the detail information for each asset or bulk update a bunch of assets at a same time. They can publish the assets to some channels such as YouTube, Google Drive, Nuxeo, and other storages by simply clicking one button. Then, all of related information for video could be automatically filled.",
+        "skills": "React JS, JavaScript, redux, redux-thunk, styled-component, Webpack, Ant Design, common library, ElasticSearch, Nuxeo",
         "userId": "user-1"
     
     },
@@ -23,7 +24,7 @@
         "name": "Stock Exchange",
         "industry": "Business",
         "description": "A website for trading cryptocurrency. It shows us the latest news managed by admin team. Moreover, There are functions for registered users to exchange and manage the orders, view order history, view coin list and cryptocurrency market.",
-        "skills": "ReactJS, NextJS, JavaScript, HTML5, CSS3, Boostrap, Redux, Webpack, Yarn, Web Socket, React-boostrap",
+        "skills": "React JS, Next JS, JavaScript, HTML5, CSS3, Boostrap, Redux, Webpack, Yarn, Web Socket, React-boostrap",
         "userId": "user-1"
     },
     {
@@ -31,7 +32,7 @@
         "companyId": "his-2",
         "name": "Management Tool",
         "industry": "Scrum Management",
-        "description": "An agile project management capabilities into a web application, which helps you plan and organize tasks, workflows, and reports for your agile team more efficiently.",
+        "description": "Website for management Agile process. It helps you plan and organize tasks, workflows, and reports for your agile team more efficiently.",
         "skills": "Angular 6, Typescript, HTML, Boostrap, SASS, Redux, Webpack, NPM",
         "userId": "user-1"
     },
@@ -47,9 +48,18 @@
     {
         "id": "exp-6",
         "companyId": "his-2",
-        "name": "Ticket Application",
+        "name": "Ticket Management",
         "industry": "Payment",
         "description": "Website for managing (buy and sell) tickets of events which is registered with company. You can view event info, its owner's info and more that relate to event you consider",
+        "skills": "React Native, JavaScript, HTML, CSS, redux, redux-saga, styled-component, Webpack, NPM",
+        "userId": "user-1"
+    },
+    {
+        "id": "exp-7",
+        "companyId": "his-3",
+        "name": "Talk App",
+        "industry": "Messaging / Donating",
+        "description": "Added advanced donating and messaging features into Application in Android/IOS. The goal of donating features is to allow users who are watching streamers on Android/IOS to donate for streamers by gifts with other values. The goal of messaging features is to notice users some news and to allow users to chat with their friends or follwers.",
         "skills": "React Native, JavaScript, HTML, CSS, redux, redux-saga, styled-component, Webpack, NPM",
         "userId": "user-1"
     }
