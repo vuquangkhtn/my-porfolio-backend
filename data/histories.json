@@ -2,14 +2,14 @@
     {
         "id": "his-1",
         "company": "Codelink",
-        "name": "Software Engineer",
+        "name": "Software Developer",
         "time": "10/2019",
         "userId": "user-1"
     },
     {
         "id": "his-2",
         "company": "KMS Technology",
-        "name": "Software Engineer",
+        "name": "Software Developer",
         "time": "10/2018",
         "nextTime": "his-1",
         "userId": "user-1"
@@ -17,7 +17,7 @@
     {
         "id": "his-3",
         "company": "VNG Cooperation",
-        "name": "Collaborator Developer",
+        "name": "Android Developer",
         "time": "07/2017",
         "nextTime": "his-2",
         "userId": "user-1"

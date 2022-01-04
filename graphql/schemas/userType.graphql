@@ -1,11 +1,13 @@
 type User {
   id: ID!
   name: String
+  position: String
   phone: String
   address: String
   email: String
   github: String
   linkedin: String
+  bio: String
 }
 
 type Query {

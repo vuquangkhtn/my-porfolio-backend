@@ -2,13 +2,31 @@
     {
         "id": "skill-1",
         "name": "Languages & Scripting",
-        "detail": "JavaScript, TypeScript",
+        "detail": "JavaScript, ES6, TypeScript",
         "userId": "user-1"
     },
     {
         "id": "skill-2",
         "name": "Frameworks & Libraries",
-        "detail": "ReactJS, NextJS, Angular6, React Native, Jest, Enzyme, react-testing-library",
+        "detail": "ReactJS, NextJS, Angular6, i18n, ElasticSearch, Graphql",
+        "userId": "user-1"
+    },
+    {
+        "id": "skill-8",
+        "name": "Testing Libraries",
+        "detail": "Jest, Enzyme, react-testing-library",
+        "userId": "user-1"
+    },
+    {
+        "id": "skill-9",
+        "name": "State Management",
+        "detail": "Redux, redux-thunk, redux-saga, redux-persist",
+        "userId": "user-1"
+    },
+    {
+        "id": "skill-10",
+        "name": "UI Libraries",
+        "detail": "styled-components, Material UI, Bootstrap, Ant Design",
         "userId": "user-1"
     },
     {

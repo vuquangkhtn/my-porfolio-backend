@@ -6,6 +6,6 @@ type Contact {
   user: User
 }
 
-type Query {
+type Mutation {
   addContact(userId: ID!, name: String!, email: String!, description: String): ID,
 }

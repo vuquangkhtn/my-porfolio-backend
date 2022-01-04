@@ -2,10 +2,12 @@
     {
         "id": "user-1",
         "name": "Quang Nguyen",
+        "position": "Web Developer",
         "phone": "(+84)38 7708 009",
-        "address": "Tan Hung Ward, District 7, Ho Chi Minh City, Viet Nam",
+        "address": "Duong D4, huong Tan Hung, Quang 7, Ho Chi Minh, Viet Nam",
         "email": "vuquangkhtn@gmail.com",
         "github": "https://github.com/vuquangkhtn",
-        "linkedin": "https://www.linkedin.com/in/ngvuquang"
+        "linkedin": "https://www.linkedin.com/in/ngvuquang",
+        "bio": "Looking for a challenging role in a reputable organization to utilize my technical and soft skills for the growth of the organization as well as to enhance my knowledge about new and emerging trends in the IT sector."
     }
 ]

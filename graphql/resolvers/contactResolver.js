@@ -1,6 +1,6 @@
 const contactService = require('../../services/contactService');
 module.exports = {
-  Query: {
+  Mutation: {
     addContact: (obj, args, context, info) => {
       const newContactId = contactService.addContact(args);
       if (!newContactId) {
