@@ -10,7 +10,7 @@ const typeDefs = require('./graphql/typeDefs');
 const executableSchema = makeExecutableSchema({
   typeDefs,
   resolvers
-})
+});
 
 var app = express();
 app.use(cors());

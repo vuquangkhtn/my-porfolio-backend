@@ -4,4 +4,4 @@ const addContact = (params) => contacts.create(params);
 
 module.exports = {
     addContact,
-}
+};

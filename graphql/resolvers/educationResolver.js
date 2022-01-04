@@ -6,19 +6,19 @@ module.exports = {
       educations: () => {
         const educations = educationService.getAll();
         if (!educations) {
-          throw new Error(`Couldn't find any education`)
+          throw new Error(`Couldn't find any education`);
         }
         return educations;
       },
     },
     Education: {
-      user: (obj, args, context, info) => {
+      user: (obj) => {
         const user = userService.getById(obj.userId);
         if (!user) {
-          throw new Error(`Couldn't find user with id ${id}`);
+          throw new Error(`Couldn't find user with id ${obj.userId}`);
         }
         return user;
       },
     }
-  }
+  };
   

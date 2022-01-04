@@ -1,0 +1,24 @@
+{
+    "env": {
+        "node": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "plugins": ["commonjs"],
+    "extends": ["eslint:recommended"],
+    "overrides": [
+      {
+        "files": ["*.graphql"],
+        "parser": "@graphql-eslint/eslint-plugin",
+        "plugins": ["@graphql-eslint"],
+        "rules": {
+        }
+      }
+    ],
+    "rules": {
+      "semi": [2, "always"]
+    },
+    "parserOptions": {
+        "ecmaVersion": 2015
+    }
+}

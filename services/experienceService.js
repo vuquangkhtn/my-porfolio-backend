@@ -4,4 +4,4 @@ const getAll = () => experiences.list();
 
 module.exports = {
     getAll,
-}
+};

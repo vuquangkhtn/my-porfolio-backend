@@ -6,4 +6,4 @@ const getById = (id) => users.get(id);
 module.exports = {
     getAll,
     getById,
-}
+};

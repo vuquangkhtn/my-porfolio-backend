@@ -12,9 +12,14 @@
     "graphql-tools": "^8.2.0",
     "notarealdb": "^0.2.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@graphql-eslint/eslint-plugin": "^3.6.0",
+    "eslint": "^8.6.0",
+    "eslint-plugin-commonjs": "^1.0.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",

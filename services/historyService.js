@@ -6,4 +6,4 @@ const getById = (id) => histories.get(id);
 module.exports = {
     getAll,
     getById,
-}
+};

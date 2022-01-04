@@ -1,16 +1,17 @@
+const userService = require('../../services/userService');
 const historyService = require('../../services/historyService');
 module.exports = {
   Query: {
     histories: () => {
       const histories = historyService.getAll();
       if (!histories) {
-        throw new Error(`Couldn't find any history`)
+        throw new Error(`Couldn't find any history`);
       }
       return histories;
     },
   },
   History: {
-    nextTime: (obj, args, context, info) => {
+    nextTime: (obj) => {
       if (!obj.nextTime) return null;
       const company = historyService.getById(obj.nextTime);
       if (!company) {
@@ -18,7 +19,7 @@ module.exports = {
       }
       return company;
     },
-    user: (obj, args, context, info) => {
+    user: (obj) => {
       const user = userService.getById(obj.userId);
       if (!user) {
         throw new Error(`Couldn't find user with id ${obj.userId}`);
@@ -26,5 +27,5 @@ module.exports = {
       return user;
     },
   }
-}
+};
   

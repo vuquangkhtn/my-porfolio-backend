@@ -4,4 +4,4 @@ const getAll = () => skills.list();
 
 module.exports = {
     getAll,
-}
+};

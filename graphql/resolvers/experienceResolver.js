@@ -7,20 +7,20 @@ module.exports = {
       experiences: () => {
         const experiences = experienceService.getAll();
         if (!experiences) {
-          throw new Error(`Couldn't find any experience`)
+          throw new Error(`Couldn't find any experience`);
         }
         return experiences;
       },
     },
     Experience: {
-      user: (obj, args, context, info) => {
+      user: (obj) => {
         const user = userService.getById(obj.userId);
         if (!user) {
           throw new Error(`Couldn't find user with id ${obj.userId}`);
         }
         return user;
       },
-      company: (obj, args, context, info) => {
+      company: (obj) => {
         const company = historyService.getById(obj.companyId);
         if (!company) {
           throw new Error(`Couldn't find company with id ${obj.companyId}`);
@@ -28,5 +28,5 @@ module.exports = {
         return company;
       },
     }
-  }
+  };
   

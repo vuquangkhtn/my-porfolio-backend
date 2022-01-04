@@ -4,4 +4,4 @@ const getAll = () => educations.list();
 
 module.exports = {
     getAll,
-}
+};
