@@ -60,7 +60,7 @@
         "name": "Talk App",
         "industry": "Messaging / Donating",
         "description": "Added advanced donating and messaging features into Application in Android/IOS. The goal of donating features is to allow users who are watching streamers on Android/IOS to donate for streamers by gifts with other values. The goal of messaging features is to notice users some news and to allow users to chat with their friends or follwers.",
-        "skills": "React Native, JavaScript, HTML, CSS, redux, redux-saga, styled-component, Webpack, NPM",
+        "skills": "JavaSE, Android SDK, MySQL, UI/UX for mobile",
         "userId": "user-1"
     }
 ]
