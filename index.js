@@ -9,6 +9,7 @@ const resolvers = require('./graphql/resolvers');
 const typeDefs = require('./graphql/typeDefs');
 const emailService = require('./services/emailService');
 
+const port = process.env.PORT || 80;
 const jsonParser = bodyParser.json();
 
 const executableSchema = makeExecutableSchema({
@@ -43,4 +44,4 @@ app.post('/contact', jsonParser, function (req, res) {
     });
 
 });
-app.listen(4000, () => console.log('Now browse to localhost:4000'));
+app.listen(port, () => console.log(`Now browse to localhost:${port}`));
